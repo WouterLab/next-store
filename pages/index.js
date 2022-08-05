@@ -1,10 +1,9 @@
-import Link from 'next/link'
+import Home from '../components/Home/Home';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
-      <h1>First Page</h1>
-      <Link href='/products'><a>All Products</a></Link>
+      <Home />
     </div>
   );
 }
