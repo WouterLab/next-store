@@ -1,7 +1,7 @@
-import Home from "../components/Home/Home";
+import About from "../components/About/About";
 import { motion } from "framer-motion";
 
-export default function HomePage() {
+export default function AboutPage() {
   return (
     <motion.div
       initial={{ x: "-100%", opacity: 0 }}
@@ -9,7 +9,7 @@ export default function HomePage() {
       exit={{ x: "100%", opacity: 0 }}
       transition={{ duration: 2 }}
     >
-      <Home />
+      <About />
     </motion.div>
   );
 }
