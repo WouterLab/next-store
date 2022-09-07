@@ -47,3 +47,8 @@ h2 {
   -webkit-transition: left 1s ease-out;
   transition: left 1s ease-out;
 }
+
+.gradient {
+  background-color: #c3c3c3;
+  background-image: linear-gradient(43deg, #c3c3c3 1%, #565e60 85%);
+}
